@@ -1,7 +1,7 @@
 {
   "name": "ventnor-selectize",
   "description": "A ventnor selectize view",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "selectize": "^0.12.1",
     "ventnor": "^0.2.0"
