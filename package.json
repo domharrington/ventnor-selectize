@@ -1,0 +1,33 @@
+{
+  "name": "ventnor-selectize",
+  "description": "A ventnor selectize view",
+  "version": "0.0.0",
+  "dependencies": {
+    "selectize": "^0.12.1",
+    "ventnor": "^0.2.0"
+  },
+  "scripts": {
+    "lint": "jshint .",
+    "checkStyle": "jscs .",
+    "pretest": "npm run-script lint && npm run-script checkStyle",
+    "test": "istanbul cover ./node_modules/.bin/_mocha test",
+    "posttest": "istanbul check-coverage --statements 85 --branches 70 --functions 100 --lines 90 && rm -rf coverage"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "author": "Dom Harrington <dom@harrington-mail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "istanbul": "^0.3.8",
+    "jquery": "^2.1.4",
+    "jscs": "^1.6.1",
+    "jsdom": "^3.1.2",
+    "jshint": "^2.5.6",
+    "mocha": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:domharrington/ventnor-selectize.git"
+  }
+}
