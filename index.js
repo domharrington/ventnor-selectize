@@ -2,8 +2,6 @@ module.exports = VentnorSelectize
 
 var View = require('ventnor')
 
-require('selectize')
-
 function VentnorSelectize(serviceLocator, selected, options) {
   View.apply(this, arguments)
   this.$el = $('<select multiple/>')

@@ -13,7 +13,10 @@ before(function (done) {
     global.$ = window.$ = jquery(window)
 
     global.navigator = window.navigator = {}
+
     require.cache[require.resolve('jquery')].exports = window.$
+
+    require('selectize')
     SelectizeView = require('../')
 
     done()
