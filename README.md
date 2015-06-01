@@ -1,6 +1,6 @@
 # ventnor-selectize
 
-A [ventnor](https://github.com/bengourley/ventnor) [selectize](https://github.com/brianreavis/selectize.js) view
+A [ventnor](https://github.com/bengourley/ventnor) [selectize](https://github.com/brianreavis/selectize.js) view. Assumes that `selectize` is already available on the page at `$.fn.selectize()`.
 
 [![build status](https://secure.travis-ci.org/domharrington/ventnor-selectize.svg)](http://travis-ci.org/domharrington/ventnor-selectize)
 [![dependency status](https://david-dm.org/domharrington/ventnor-selectize.svg)](https://david-dm.org/domharrington/ventnor-selectize)
